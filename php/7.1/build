@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Build image
+# Notice we are NOT using http_proxy (apt-cacher) as it does not work for https repos like sury.org
+docker build -t="mreschke/php:7.1" .

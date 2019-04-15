@@ -1,0 +1,9 @@
+# OS files
+.DS_Store
+Thumbs.db
+.nfs*
+.swp
+
+# IDE files
+/.idea
+/.vscode
