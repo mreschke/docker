@@ -2,7 +2,8 @@
 
 # Get this localhost real LAN IP
 # I use apt-cacher to cache all apt downloads.  Start it with docker run -d -p 3142:3142 --name apt-cacher dynatron/apt-cacher
-ip=$(ifconfig | grep -iv 172\.17 | grep -Eo 'inet (addr:)?([0-9]*\.){3}[0-9]*' | grep -Eo '([0-9]*\.){3}[0-9]*' | grep -v '127.0.0.1' | head -n 1)
+#ip=$(ifconfig | grep -iv 172\.17 | grep -Eo 'inet (addr:)?([0-9]*\.){3}[0-9]*' | grep -Eo '([0-9]*\.){3}[0-9]*' | grep -v '127.0.0.1' | head -n 1)
+ip=$(hostname)
 
 # Build image
 docker build -t="mreschke/debian:stretch" --build-arg http_proxy=http://$ip:3142/ .

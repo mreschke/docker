@@ -14,8 +14,8 @@ ENV TERM xterm
 # Install NodeJS 10.x LTS (run before apt-get install below)
 RUN curl -o install https://deb.nodesource.com/setup_10.x && bash install
 
-# Install PHP 7.1, nodejs and more
-RUN nodejs
+# Install nodejs
+RUN apt-get install -y nodejs
 
 # Create and set working dir
 RUN mkdir -p /root/Code

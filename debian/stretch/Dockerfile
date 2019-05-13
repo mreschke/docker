@@ -10,7 +10,7 @@ ENV TERM xterm
 
 # Update apt and install the basics
 RUN apt-get update && \
-    apt-get install -y curl wget nano && \
+    apt-get install -y curl wget nano apt-transport-https ca-certificates && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
