@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Run container
+docker run --name nginx -p 80:80 -v /etc/nginx:/etc/nginx -v /etc/hosts:/etc/hosts -v /var/www/:/var/www/ -d mreschke/nginx:1.10

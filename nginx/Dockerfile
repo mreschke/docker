@@ -5,5 +5,8 @@
 FROM nginx:latest
 LABEL maintainer="mail@mreschke.com"
 
+# Customize bash profiles
+COPY files/.bashrc /root/.bashrc
+
 # Configure Nginx
 COPY files/nginx.conf /etc/nginx/nginx.conf

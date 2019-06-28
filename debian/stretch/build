@@ -6,4 +6,6 @@
 ip=$(hostname)
 
 # Build image
-docker build -t="mreschke/debian:stretch" --build-arg http_proxy=http://$ip:3142/ .
+#docker build -t="mreschke/debian:stretch" --build-arg http_proxy=http://$ip:3142/ .
+docker build -t="mreschke/debian:stretch" .
+
