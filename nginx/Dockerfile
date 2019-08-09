@@ -5,6 +5,9 @@
 FROM nginx:latest
 LABEL maintainer="mail@mreschke.com"
 
+# Install some applications
+RUN apt-get update && apt-get install -y apt-transport-https ca-certificates inetutils-ping curl nmap
+
 # Customize bash profiles
 COPY files/.bashrc /root/.bashrc
 
