@@ -1,7 +1,7 @@
 version: '2.1'
 
 volumes:
-    kong_data: {}
+    data: {}
 
 networks:
   kong-net:
@@ -78,7 +78,7 @@ services:
       interval: 10s
       timeout: 10s
       retries: 10
-    restart: on-failure
+    restart: unless-stopped
 
   konga:
     image: pantsel/konga:latest
@@ -87,7 +87,7 @@ services:
       db:
         condition: service_healthy
     environment:
-      NODE_ENV: development
+      NODE_ENV: production
       TOKEN_SECRET: 3e74867790315c429dd955f935444de905411746961fbb6b55af91369777287d
     networks:
       - kong-net
@@ -95,6 +95,7 @@ services:
       - "1337:1337/tcp"
     volumes:
       - /etc/hosts:/etc/hosts
+    restart: unless-stopped
 
   db:
     image: postgres:9.6
@@ -108,7 +109,6 @@ services:
       interval: 30s
       timeout: 30s
       retries: 3
-    restart: on-failure
     stdin_open: true
     tty: true
     networks:
@@ -116,4 +116,5 @@ services:
     ports:
       - "8432:5432"
     volumes:
-      - kong_data:/var/lib/postgresql/data
+      - data:/var/lib/postgresql/data
+    restart: unless-stopped
