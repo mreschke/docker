@@ -1,0 +1,22 @@
+server {
+    listen 443 ssl;
+    server_name auth-local.sunfinity.com;
+
+    ssl_certificate         /etc/nginx/certs/sunfinity.com/sunfinity.com.chained.crt;
+    ssl_certificate_key     /etc/nginx/certs/sunfinity.com/sunfinity.com.key;
+
+    location / {
+        proxy_set_header    X-Real-IP               $remote_addr;
+        proxy_set_header    X-Forwarded-For         $proxy_add_x_forwarded_for;
+        proxy_set_header    X-Forwarded-Proto       $scheme;
+        proxy_set_header    x-Forwarded-Port        443;
+        proxy_set_header    Host                    $host;
+        proxy_pass          http://localhost:9011;  #9011 is FusionAuth unside docker
+    }
+}
+
+server {
+    listen 80;
+    server_name auth-local.sunfinity.com;
+    return 301 https://$host$request_uri;
+}

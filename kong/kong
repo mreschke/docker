@@ -1,0 +1,8 @@
+#!/bin/bash
+
+#base="$( cd "$(dirname "$0")" ; cd ../ ; pwd -P )" # Not work with symlinks
+base=~/Code/mreschke/docker
+source $base/bin/docker-compose-helper.sh
+
+path=$base/kong
+compose "$@"

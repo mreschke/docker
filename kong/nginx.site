@@ -1,0 +1,21 @@
+server {
+    listen 443 ssl;
+    server_name konga-local.sunfinity.io;
+
+    ssl_certificate         /etc/nginx/certs/sunfinity.io/sunfinity.io.chained.crt;
+    ssl_certificate_key     /etc/nginx/certs/sunfinity.io/sunfinity.io.key;
+
+    location / {
+        proxy_set_header    X-Real-IP               $remote_addr;
+        proxy_set_header    X-Forwarded-For         $proxy_add_x_forwarded_for;
+        proxy_set_header    X-Forwarded-Proto       $scheme;
+        proxy_set_header    Host                    $host;
+        proxy_pass          http://localhost:1337;  #1337 is konga UI in docker
+    }
+}
+
+server {
+    listen 80;
+    server_name konga-local.sunfinity.io;
+    return 301 https://$host$request_uri;
+}
