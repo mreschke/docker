@@ -4,5 +4,5 @@
 base=~/Code/mreschke/docker
 source $base/bin/docker-compose-helper.sh
 
-path=$base/kong
+path=$base/kong/2.0.0
 compose "$@"

@@ -37,7 +37,7 @@ services:
       - es_data:/usr/share/elasticsearch/data
 
   fusionauth:
-    image: fusionauth/fusionauth-app:latest
+    image: fusionauth/fusionauth-app:1.14.0
     container_name: fusionauth
     depends_on:
       - db
