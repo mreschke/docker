@@ -1,0 +1,120 @@
+version: '2.1'
+
+volumes:
+    data: {}
+
+networks:
+  net:
+
+services:
+  kong-migrations:
+    image: "${KONG_DOCKER_TAG:-kong:2.0.3}"
+    container_name: kong-migrations
+    command: kong migrations bootstrap
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      KONG_DATABASE: postgres
+      KONG_PG_DATABASE: ${KONG_PG_DATABASE:-kong}
+      KONG_PG_HOST: db
+      KONG_PG_PASSWORD: ${KONG_PG_PASSWORD:-kong}
+      KONG_PG_USER: ${KONG_PG_USER:-kong}
+    links:
+      - db:db
+    networks:
+      - net
+    restart: on-failure
+
+  kong-migrations-up:
+    image: "${KONG_DOCKER_TAG:-kong:2.0.3}"
+    container_name: kong-migrations-up
+    command: kong migrations up
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      KONG_DATABASE: postgres
+      KONG_PG_DATABASE: ${KONG_PG_DATABASE:-kong}
+      KONG_PG_HOST: db
+      KONG_PG_PASSWORD: ${KONG_PG_PASSWORD:-kong}
+      KONG_PG_USER: ${KONG_PG_USER:-kong}
+    links:
+      - db:db
+    networks:
+      - net
+    restart: on-failure
+
+  kong:
+    image: "${KONG_DOCKER_TAG:-kong:2.0.3}"
+    container_name: kong
+    user: "${KONG_USER:-root}"
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      KONG_ADMIN_ACCESS_LOG: /dev/stdout
+      KONG_ADMIN_ERROR_LOG: /dev/stderr
+      KONG_ADMIN_LISTEN: '0.0.0.0:8001'
+      KONG_CASSANDRA_CONTACT_POINTS: db
+      KONG_DATABASE: postgres
+      KONG_PG_DATABASE: ${KONG_PG_DATABASE:-kong}
+      KONG_PG_HOST: db
+      KONG_PG_PASSWORD: ${KONG_PG_PASSWORD:-kong}
+      KONG_PG_USER: ${KONG_PG_USER:-kong}
+      KONG_PROXY_ACCESS_LOG: /dev/stdout
+      KONG_PROXY_ERROR_LOG: /dev/stderr
+    networks:
+      - net
+    ports:
+      - "8000:8000/tcp"
+      - "8001:8001/tcp"
+      - "8443:8443/tcp"
+      - "8444:8444/tcp"
+    volumes:
+      - /etc/hosts:/etc/hosts
+    healthcheck:
+      test: ["CMD", "kong", "health"]
+      interval: 10s
+      timeout: 10s
+      retries: 10
+    #restart: unless-stopped
+
+  konga:
+    image: pantsel/konga:0.14.7
+    container_name: konga
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      NODE_ENV: production
+      TOKEN_SECRET: 3e74867790315c429dd955f935444de905411746961fbb6b55af91369777287d
+    networks:
+      - net
+    ports:
+      - "1337:1337/tcp"
+    volumes:
+      - /etc/hosts:/etc/hosts
+    #restart: unless-stopped
+
+  db:
+    image: postgres:9.6
+    container_name: kong-postgres
+    environment:
+      POSTGRES_DB: ${KONG_PG_DATABASE:-kong}
+      POSTGRES_PASSWORD: ${KONG_PG_PASSWORD:-kong}
+      POSTGRES_USER: ${KONG_PG_USER:-kong}
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "${KONG_PG_USER:-kong}"]
+      interval: 30s
+      timeout: 30s
+      retries: 3
+    stdin_open: true
+    tty: true
+    networks:
+      - net
+    ports:
+      - "8432:5432"
+    volumes:
+      - data:/var/lib/postgresql/data
+    #restart: unless-stopped
