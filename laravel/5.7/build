@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Build image
+# Notice we are NOT using http_proxy (apt-cacher) as it does
+# not work for https repos like sury.org
+docker build -t="sunfinity/laravel:5.7" .
+

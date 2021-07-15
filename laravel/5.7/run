@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Run container
+docker run -it --rm sunfinity/laravel:5.7

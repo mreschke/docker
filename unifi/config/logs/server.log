@@ -1,0 +1,767 @@
+[2021-01-24T21:57:15,255] <launcher> WARN  system - reload system.properties failed: file not found
+[2021-01-24T21:57:15,258] <launcher> WARN  system - reload system.properties.bk failed: file not found
+[2021-01-24T21:57:15,258] <launcher> INFO  system - *** Running for the first time, creating identity ***
+[2021-01-24T21:57:15,258] <launcher> INFO  system - UUID: 925c8592-1222-425f-9188-220c4cb09c43
+[2021-01-24T21:57:15,258] <launcher> WARN  system - reload system.properties failed: file not found
+[2021-01-24T21:57:15,259] <launcher> WARN  system - reload system.properties.bk failed: file not found
+[2021-01-24T21:57:15,262] <launcher> INFO  system - Reporter UUID: a06952cb-9779-4b05-afa3-e503ed174018
+[2021-01-24T21:57:16,495] <localhost-startStop-1> INFO  Version - HV000001: Hibernate Validator 6.1.2.Final
+[2021-01-24T21:57:16,635] <localhost-startStop-1> INFO  system - ======================================================================
+[2021-01-24T21:57:16,635] <localhost-startStop-1> INFO  system - UniFi 6.0.43 (build atag_6.0.43_14348 - release/release) is started
+[2021-01-24T21:57:16,635] <localhost-startStop-1> INFO  system - ======================================================================
+[2021-01-24T21:57:16,636] <localhost-startStop-1> INFO  system - BASE dir:/usr/lib/unifi
+[2021-01-24T21:57:16,659] <localhost-startStop-1> INFO  system - Current System IP: 172.31.0.2
+[2021-01-24T21:57:16,660] <localhost-startStop-1> INFO  system - Hostname: 858cbcb3450f
+[2021-01-24T21:57:16,660] <localhost-startStop-1> INFO  system - ubic.env: prod
+[2021-01-24T21:57:16,876] <localhost-startStop-1> INFO  db     - waiting for db connection...
+[2021-01-24T21:57:18,377] <localhost-startStop-1> INFO  db     - Connecting to mongodb://localhost:27117
+[2021-01-24T21:57:18,937] <localhost-startStop-1> INFO  db     - setting mongodb features compatibility version to 3.6
+[2021-01-24T21:57:22,244] <localhost-startStop-1> INFO  db     - Connecting to mongodb://localhost:27117
+[2021-01-24T21:57:23,082] <localhost-startStop-1> INFO  productinfo - Using controller channel=RELEASE, firmware channel=RELEASE. Available controller channels=[RELEASE], available firmware channels=[RELEASE]. SSO is disabled.
+[2021-01-24T21:57:23,117] <localhost-startStop-1> WARN  dev    - failed to read /usr/lib/unifi/data/model_lifecycles.json - /usr/lib/unifi/data/model_lifecycles.json (No such file or directory)
+[2021-01-24T21:57:23,342] <localhost-startStop-1> INFO  webrtc - WebRTC library version: EvoStream Media Server (www.evostream.com) build v2.9.1 - Gladiator - (built for Debian-8.2.0-x86_64 on 2020-02-05T23:33:19.000) OpenSSL version: 1.1.1d usrsctp version: v0.1.2 compiled on machine: Linux debian-8-2-0-64 3.16.0-6-amd64 #1 SMP Debian 3.16.57-2 (2018-07-14) x86_64 GNU/Linux
+[2021-01-24T21:57:23,470] <localhost-startStop-1> INFO  sdn    - Removed fingerbank token
+[2021-01-24T21:57:23,518] <localhost-startStop-1> INFO  remote - Created directory: /usr/lib/unifi/logs/remote
+[2021-01-24T21:57:23,522] <localhost-startStop-1> INFO  remote - started remote log server
+[2021-01-24T21:58:26,626] <autoupdate-check> INFO  productinfo - firmware[BZ2] new version (4.3.24.11355) is available
+[2021-01-24T21:58:26,626] <autoupdate-check> INFO  productinfo - firmware[BZ2LR] new version (4.3.24.11355) is available
+[2021-01-24T21:58:26,627] <autoupdate-check> INFO  productinfo - firmware[S216150] new version (5.43.23.12533) is available
+[2021-01-24T21:58:26,627] <autoupdate-check> INFO  productinfo - firmware[S224250] new version (5.43.23.12533) is available
+[2021-01-24T21:58:26,627] <autoupdate-check> INFO  productinfo - firmware[S224500] new version (5.43.23.12533) is available
+[2021-01-24T21:58:26,627] <autoupdate-check> INFO  productinfo - firmware[S248500] new version (5.43.23.12533) is available
+[2021-01-24T21:58:26,627] <autoupdate-check> INFO  productinfo - firmware[S248750] new version (5.43.23.12533) is available
+[2021-01-24T21:58:26,627] <autoupdate-check> INFO  productinfo - firmware[S28150] new version (5.43.23.12533) is available
+[2021-01-24T21:58:26,627] <autoupdate-check> INFO  productinfo - firmware[U2HSR] new version (4.3.24.11355) is available
+[2021-01-24T21:58:26,627] <autoupdate-check> INFO  productinfo - firmware[U2IW] new version (4.3.24.11355) is available
+[2021-01-24T21:58:26,627] <autoupdate-check> INFO  productinfo - firmware[U2Lv2] new version (4.3.24.11355) is available
+[2021-01-24T21:58:26,627] <autoupdate-check> INFO  productinfo - firmware[U2O] new version (4.3.24.11355) is available
+[2021-01-24T21:58:26,627] <autoupdate-check> INFO  productinfo - firmware[U2Sv2] new version (4.3.24.11355) is available
+[2021-01-24T21:58:26,627] <autoupdate-check> INFO  productinfo - firmware[U5O] new version (4.3.24.11355) is available
+[2021-01-24T21:58:26,627] <autoupdate-check> INFO  productinfo - firmware[U7EDU] new version (4.3.24.11355) is available
+[2021-01-24T21:58:26,627] <autoupdate-check> INFO  productinfo - firmware[U7HD] new version (4.3.24.11355) is available
+[2021-01-24T21:58:26,627] <autoupdate-check> INFO  productinfo - firmware[U7IW] new version (4.3.24.11355) is available
+[2021-01-24T21:58:26,627] <autoupdate-check> INFO  productinfo - firmware[U7IWP] new version (4.3.24.11355) is available
+[2021-01-24T21:58:26,628] <autoupdate-check> INFO  productinfo - firmware[U7LR] new version (4.3.24.11355) is available
+[2021-01-24T21:58:26,628] <autoupdate-check> INFO  productinfo - firmware[U7LT] new version (4.3.24.11355) is available
+[2021-01-24T21:58:26,628] <autoupdate-check> INFO  productinfo - firmware[U7MP] new version (4.3.24.11355) is available
+[2021-01-24T21:58:26,628] <autoupdate-check> INFO  productinfo - firmware[U7MSH] new version (4.3.24.11355) is available
+[2021-01-24T21:58:26,628] <autoupdate-check> INFO  productinfo - firmware[U7NHD] new version (5.43.23.12533) is available
+[2021-01-24T21:58:26,628] <autoupdate-check> INFO  productinfo - firmware[U7P] new version (4.3.24.11355) is available
+[2021-01-24T21:58:26,628] <autoupdate-check> INFO  productinfo - firmware[U7PG2] new version (4.3.24.11355) is available
+[2021-01-24T21:58:26,628] <autoupdate-check> INFO  productinfo - firmware[U7SHD] new version (4.3.24.11355) is available
+[2021-01-24T21:58:26,628] <autoupdate-check> INFO  productinfo - firmware[UAE6] new version (5.43.23.12533) is available
+[2021-01-24T21:58:26,628] <autoupdate-check> INFO  productinfo - firmware[UAIW6] new version (5.43.23.12533) is available
+[2021-01-24T21:58:26,628] <autoupdate-check> INFO  productinfo - firmware[UAL6] new version (5.43.23.12533) is available
+[2021-01-24T21:58:26,628] <autoupdate-check> INFO  productinfo - firmware[UALR6] new version (5.43.23.12533) is available
+[2021-01-24T21:58:26,628] <autoupdate-check> INFO  productinfo - firmware[UALR6v2] new version (5.43.23.12533) is available
+[2021-01-24T21:58:26,628] <autoupdate-check> INFO  productinfo - firmware[UAM6] new version (5.43.23.12533) is available
+[2021-01-24T21:58:26,628] <autoupdate-check> INFO  productinfo - firmware[UBB] new version (2.0.8.42901) is available
+[2021-01-24T21:58:26,629] <autoupdate-check> INFO  productinfo - firmware[UCK] new version (1.1.13.818cc5f) is available
+[2021-01-24T21:58:26,629] <autoupdate-check> INFO  productinfo - firmware[UCKG2] new version (2.0.26.8f0299e) is available
+[2021-01-24T21:58:26,629] <autoupdate-check> INFO  productinfo - firmware[UCKP] new version (2.0.26.8f0299e) is available
+[2021-01-24T21:58:26,629] <autoupdate-check> INFO  productinfo - firmware[UCXG] new version (4.3.24.11355) is available
+[2021-01-24T21:58:26,629] <autoupdate-check> INFO  productinfo - firmware[UDM] new version (1.5.6.2150) is available
+[2021-01-24T21:58:26,629] <autoupdate-check> INFO  productinfo - firmware[UDMB] new version (5.43.23.12533) is available
+[2021-01-24T21:58:26,629] <autoupdate-check> INFO  productinfo - firmware[UDMPRO] new version (1.5.0.1974) is available
+[2021-01-24T21:58:26,629] <autoupdate-check> INFO  productinfo - firmware[UFLHD] new version (5.43.23.12533) is available
+[2021-01-24T21:58:26,629] <autoupdate-check> INFO  productinfo - firmware[UGW3] new version (4.4.52.5363511) is available
+[2021-01-24T21:58:26,629] <autoupdate-check> INFO  productinfo - firmware[UGW4] new version (4.4.52.5363507) is available
+[2021-01-24T21:58:26,629] <autoupdate-check> INFO  productinfo - firmware[UGWXG] new version (4.4.52.5363507) is available
+[2021-01-24T21:58:26,630] <autoupdate-check> INFO  productinfo - firmware[UHDIW] new version (5.43.23.12533) is available
+[2021-01-24T21:58:26,630] <autoupdate-check> INFO  productinfo - firmware[ULTE] new version (5.43.23.12533) is available
+[2021-01-24T21:58:26,630] <autoupdate-check> INFO  productinfo - firmware[ULTEPEU] new version (5.43.23.12533) is available
+[2021-01-24T21:58:26,630] <autoupdate-check> INFO  productinfo - firmware[UP1] new version (1.2.2.393) is available
+[2021-01-24T21:58:26,630] <autoupdate-check> INFO  productinfo - firmware[US16P150] new version (5.43.23.12533) is available
+[2021-01-24T21:58:26,630] <autoupdate-check> INFO  productinfo - firmware[US24] new version (5.43.23.12533) is available
+[2021-01-24T21:58:26,630] <autoupdate-check> INFO  productinfo - firmware[US24P250] new version (5.43.23.12533) is available
+[2021-01-24T21:58:26,630] <autoupdate-check> INFO  productinfo - firmware[US24P500] new version (5.43.23.12533) is available
+[2021-01-24T21:58:26,630] <autoupdate-check> INFO  productinfo - firmware[US24PL2] new version (5.43.23.12533) is available
+[2021-01-24T21:58:26,630] <autoupdate-check> INFO  productinfo - firmware[US24PRO] new version (5.43.23.12533) is available
+[2021-01-24T21:58:26,630] <autoupdate-check> INFO  productinfo - firmware[US24PRO2] new version (5.43.23.12533) is available
+[2021-01-24T21:58:26,630] <autoupdate-check> INFO  productinfo - firmware[US48] new version (5.43.23.12533) is available
+[2021-01-24T21:58:26,631] <autoupdate-check> INFO  productinfo - firmware[US48P500] new version (5.43.23.12533) is available
+[2021-01-24T21:58:26,631] <autoupdate-check> INFO  productinfo - firmware[US48P750] new version (5.43.23.12533) is available
+[2021-01-24T21:58:26,631] <autoupdate-check> INFO  productinfo - firmware[US48PL2] new version (5.43.23.12533) is available
+[2021-01-24T21:58:26,631] <autoupdate-check> INFO  productinfo - firmware[US48PRO] new version (5.43.23.12533) is available
+[2021-01-24T21:58:26,631] <autoupdate-check> INFO  productinfo - firmware[US48PRO2] new version (5.43.23.12533) is available
+[2021-01-24T21:58:26,631] <autoupdate-check> INFO  productinfo - firmware[US6XG150] new version (5.43.23.12533) is available
+[2021-01-24T21:58:26,631] <autoupdate-check> INFO  productinfo - firmware[US8] new version (5.43.23.12533) is available
+[2021-01-24T21:58:26,631] <autoupdate-check> INFO  productinfo - firmware[US8P150] new version (5.43.23.12533) is available
+[2021-01-24T21:58:26,631] <autoupdate-check> INFO  productinfo - firmware[US8P60] new version (5.43.23.12533) is available
+[2021-01-24T21:58:26,631] <autoupdate-check> INFO  productinfo - firmware[USC8] new version (5.43.23.12533) is available
+[2021-01-24T21:58:26,631] <autoupdate-check> INFO  productinfo - firmware[USC8P450] new version (5.43.23.12533) is available
+[2021-01-24T21:58:26,631] <autoupdate-check> INFO  productinfo - firmware[USF5P] new version (5.43.23.12533) is available
+[2021-01-24T21:58:26,632] <autoupdate-check> INFO  productinfo - firmware[USL16LP] new version (5.43.23.12533) is available
+[2021-01-24T21:58:26,632] <autoupdate-check> INFO  productinfo - firmware[USL16P] new version (5.43.23.12533) is available
+[2021-01-24T21:58:26,632] <autoupdate-check> INFO  productinfo - firmware[USL24] new version (5.43.23.12533) is available
+[2021-01-24T21:58:26,632] <autoupdate-check> INFO  productinfo - firmware[USL24P] new version (5.43.23.12533) is available
+[2021-01-24T21:58:26,632] <autoupdate-check> INFO  productinfo - firmware[USL48] new version (5.43.23.12533) is available
+[2021-01-24T21:58:26,632] <autoupdate-check> INFO  productinfo - firmware[USL48P] new version (5.43.23.12533) is available
+[2021-01-24T21:58:26,632] <autoupdate-check> INFO  productinfo - firmware[USL8A] new version (5.43.23.12533) is available
+[2021-01-24T21:58:26,632] <autoupdate-check> INFO  productinfo - firmware[USL8LP] new version (5.43.23.12533) is available
+[2021-01-24T21:58:26,632] <autoupdate-check> INFO  productinfo - firmware[USMINI] new version (1.8.4.674) is available
+[2021-01-24T21:58:26,632] <autoupdate-check> INFO  productinfo - firmware[USPRPS] new version (5.43.23.12533) is available
+[2021-01-24T21:58:26,632] <autoupdate-check> INFO  productinfo - firmware[USXG] new version (5.43.23.12533) is available
+[2021-01-24T21:58:26,632] <autoupdate-check> INFO  productinfo - firmware[UXBSDM] new version (4.3.24.11355) is available
+[2021-01-24T21:58:26,632] <autoupdate-check> INFO  productinfo - firmware[UXSDM] new version (4.3.24.11355) is available
+[2021-01-24T22:42:41,985] <inform-3> INFO  scheduler - creating radio AI schedule task - site: Default cron: 0 3 * * *
+[2021-01-24T22:42:47,516] <inform-1> INFO  productinfo - Using controller channel=RELEASE, firmware channel=RELEASE. Available controller channels=[RELEASE], available firmware channels=[RELEASE]. SSO is enabled.
+[2021-01-24T22:42:49,849] <ucare-device-check-task> WARN  ucare  - Device check failed: Cloud operation failed! RC=404, error: {"code":"NOT_FOUND","timestamp":"1611528169"}
+[2021-01-24T22:43:00,005] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-24T22:43:00,005] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-24T23:03:38,964] <ubnt/tcp> WARN  dev    - [sshCommand exec] Execute SSH without host key verification!
+[2021-01-24T23:05:08,170] <ubnt/tcp> WARN  dev    - [sshCommand exec] Execute SSH without host key verification!
+[2021-01-24T23:05:08,170] <ubnt/tcp> WARN  dev    - [sshCommand exec] Execute SSH without host key verification!
+[2021-01-24T23:06:33,530] <devmgr> WARN  system - two-phase-adoption: timed out for device[18:e8:29:06:66:94]
+[2021-01-24T23:07:33,530] <devmgr> WARN  system - two-phase-adoption: timed out for device[18:e8:29:06:66:94]
+[2021-01-24T23:08:33,530] <devmgr> WARN  system - two-phase-adoption: timed out for device[18:e8:29:06:66:94]
+[2021-01-24T23:09:33,530] <devmgr> WARN  system - two-phase-adoption: timed out for device[18:e8:29:06:66:94]
+[2021-01-24T23:10:33,530] <devmgr> WARN  system - two-phase-adoption: timed out for device[18:e8:29:06:66:94]
+[2021-01-24T23:11:33,530] <devmgr> WARN  system - two-phase-adoption: timed out for device[18:e8:29:06:66:94]
+[2021-01-24T23:12:33,530] <devmgr> WARN  system - two-phase-adoption: timed out for device[18:e8:29:06:66:94]
+[2021-01-24T23:13:33,530] <devmgr> WARN  system - two-phase-adoption: timed out for device[18:e8:29:06:66:94]
+[2021-01-24T23:14:33,530] <devmgr> WARN  system - two-phase-adoption: timed out for device[18:e8:29:06:66:94]
+[2021-01-24T23:15:33,530] <devmgr> WARN  system - two-phase-adoption: timed out for device[18:e8:29:06:66:94]
+[2021-01-24T23:16:33,530] <devmgr> WARN  system - two-phase-adoption: timed out for device[18:e8:29:06:66:94]
+[2021-01-24T23:17:33,530] <devmgr> WARN  system - two-phase-adoption: timed out for device[18:e8:29:06:66:94]
+[2021-01-24T23:18:33,530] <devmgr> WARN  system - two-phase-adoption: timed out for device[18:e8:29:06:66:94]
+[2021-01-24T23:19:33,530] <devmgr> WARN  system - two-phase-adoption: timed out for device[18:e8:29:06:66:94]
+[2021-01-24T23:20:33,530] <devmgr> WARN  system - two-phase-adoption: timed out for device[18:e8:29:06:66:94]
+[2021-01-24T23:21:33,530] <devmgr> WARN  system - two-phase-adoption: timed out for device[18:e8:29:06:66:94]
+[2021-01-24T23:22:33,530] <devmgr> WARN  system - two-phase-adoption: timed out for device[18:e8:29:06:66:94]
+[2021-01-24T23:23:33,530] <devmgr> WARN  system - two-phase-adoption: timed out for device[18:e8:29:06:66:94]
+[2021-01-24T23:24:33,530] <devmgr> WARN  system - two-phase-adoption: timed out for device[18:e8:29:06:66:94]
+[2021-01-24T23:24:48,275] <webapi-98> WARN  api    - websocket session error:Unable to unwrap data, invalid status [CLOSED]
+[2021-01-24T23:25:33,530] <devmgr> WARN  system - two-phase-adoption: timed out for device[18:e8:29:06:66:94]
+[2021-01-24T23:26:33,530] <devmgr> WARN  system - two-phase-adoption: timed out for device[18:e8:29:06:66:94]
+[2021-01-24T23:27:33,530] <devmgr> WARN  system - two-phase-adoption: timed out for device[18:e8:29:06:66:94]
+[2021-01-24T23:28:33,530] <devmgr> WARN  system - two-phase-adoption: timed out for device[18:e8:29:06:66:94]
+[2021-01-24T23:29:33,530] <devmgr> WARN  system - two-phase-adoption: timed out for device[18:e8:29:06:66:94]
+[2021-01-24T23:30:33,530] <devmgr> WARN  system - two-phase-adoption: timed out for device[18:e8:29:06:66:94]
+[2021-01-24T23:31:33,530] <devmgr> WARN  system - two-phase-adoption: timed out for device[18:e8:29:06:66:94]
+[2021-01-24T23:32:33,530] <devmgr> WARN  system - two-phase-adoption: timed out for device[18:e8:29:06:66:94]
+[2021-01-24T23:33:33,530] <devmgr> WARN  system - two-phase-adoption: timed out for device[18:e8:29:06:66:94]
+[2021-01-24T23:34:33,530] <devmgr> WARN  system - two-phase-adoption: timed out for device[18:e8:29:06:66:94]
+[2021-01-24T23:35:07,668] <webapi-114> WARN  dev    - scheduleTask(): type=setparam ignoring for unsupported device=18:e8:29:06:66:94, device may be stale now
+[2021-01-24T23:35:07,682] <webapi-131> WARN  dev    - dev[18:e8:29:06:66:94] (unsupported) won't be provisioned, will become stale
+[2021-01-24T23:35:07,707] <webapi-122> ERROR api    - Failed to update permissions: I/O error on POST request for "http://localhost:11081/api/permissions/network": Connect to localhost:11081 [localhost/127.0.0.1] failed: Connection refused (Connection refused); nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:11081 [localhost/127.0.0.1] failed: Connection refused (Connection refused)
+[2021-01-24T23:35:33,530] <devmgr> WARN  system - two-phase-adoption: timed out for device[18:e8:29:06:66:94]
+[2021-01-24T23:36:33,530] <devmgr> WARN  system - two-phase-adoption: timed out for device[18:e8:29:06:66:94]
+[2021-01-24T23:37:33,530] <devmgr> WARN  system - two-phase-adoption: timed out for device[18:e8:29:06:66:94]
+[2021-01-24T23:38:38,366] <localhost-startStop-1> INFO  Version - HV000001: Hibernate Validator 6.1.2.Final
+[2021-01-24T23:38:38,502] <localhost-startStop-1> INFO  system - ======================================================================
+[2021-01-24T23:38:38,502] <localhost-startStop-1> INFO  system - UniFi 6.0.43 (build atag_6.0.43_14348 - release/release) is started
+[2021-01-24T23:38:38,502] <localhost-startStop-1> INFO  system - ======================================================================
+[2021-01-24T23:38:38,503] <localhost-startStop-1> INFO  system - BASE dir:/usr/lib/unifi
+[2021-01-24T23:38:38,525] <localhost-startStop-1> INFO  system - Current System IP: 172.31.0.2
+[2021-01-24T23:38:38,525] <localhost-startStop-1> INFO  system - Hostname: 858cbcb3450f
+[2021-01-24T23:38:38,526] <localhost-startStop-1> INFO  system - ubic.env: prod
+[2021-01-24T23:38:38,741] <localhost-startStop-1> INFO  db     - waiting for db connection...
+[2021-01-24T23:38:40,242] <localhost-startStop-1> INFO  db     - Connecting to mongodb://localhost:27117
+[2021-01-24T23:38:41,299] <localhost-startStop-1> INFO  db     - setting mongodb features compatibility version to 3.6
+[2021-01-24T23:38:41,876] <localhost-startStop-1> INFO  db     - Connecting to mongodb://localhost:27117
+[2021-01-24T23:38:42,177] <localhost-startStop-1> INFO  productinfo - Using controller channel=RELEASE, firmware channel=RELEASE. Available controller channels=[RELEASE], available firmware channels=[RELEASE]. SSO is enabled.
+[2021-01-24T23:38:42,269] <localhost-startStop-1> INFO  dev    - saveDeviceAttr(): device[80:2a:a8:d0:b0:52][unsupported]=false (orig=null)
+[2021-01-24T23:38:42,276] <localhost-startStop-1> INFO  dev    - saveDeviceAttr(): device[80:2a:a8:d0:b0:52][unsupported_reason]=0 (orig=null)
+[2021-01-24T23:38:42,278] <localhost-startStop-1> INFO  dev    - saveDeviceAttr(): device[80:2a:a8:d0:b0:52][model_incompatible]=false (orig=null)
+[2021-01-24T23:38:42,279] <localhost-startStop-1> INFO  dev    - saveDeviceAttr(): device[80:2a:a8:d0:b0:52][model_eol_date]=null (orig=null)
+[2021-01-24T23:38:42,279] <localhost-startStop-1> INFO  dev    - saveDeviceAttr(): device[80:2a:a8:d0:b0:52][model_eol_version]=null (orig=null)
+[2021-01-24T23:38:42,280] <localhost-startStop-1> INFO  dev    - saveDeviceAttr(): device[18:e8:29:06:66:94][model_incompatible]=false (orig=null)
+[2021-01-24T23:38:42,280] <localhost-startStop-1> INFO  dev    - saveDeviceAttr(): device[18:e8:29:06:66:94][model_eol_date]=null (orig=null)
+[2021-01-24T23:38:42,281] <localhost-startStop-1> INFO  dev    - saveDeviceAttr(): device[18:e8:29:06:66:94][model_eol_version]=null (orig=null)
+[2021-01-24T23:38:42,438] <localhost-startStop-1> INFO  webrtc - WebRTC library version: EvoStream Media Server (www.evostream.com) build v2.9.1 - Gladiator - (built for Debian-8.2.0-x86_64 on 2020-02-05T23:33:19.000) OpenSSL version: 1.1.1d usrsctp version: v0.1.2 compiled on machine: Linux debian-8-2-0-64 3.16.0-6-amd64 #1 SMP Debian 3.16.57-2 (2018-07-14) x86_64 GNU/Linux
+[2021-01-24T23:38:42,604] <localhost-startStop-1> INFO  remote - Directory '/usr/lib/unifi/logs/remote' present
+[2021-01-24T23:38:42,607] <localhost-startStop-1> INFO  remote - started remote log server
+[2021-01-24T23:39:17,830] <localhost-startStop-1> INFO  Version - HV000001: Hibernate Validator 6.1.2.Final
+[2021-01-24T23:39:17,965] <localhost-startStop-1> INFO  system - ======================================================================
+[2021-01-24T23:39:17,965] <localhost-startStop-1> INFO  system - UniFi 6.0.43 (build atag_6.0.43_14348 - release/release) is started
+[2021-01-24T23:39:17,965] <localhost-startStop-1> INFO  system - ======================================================================
+[2021-01-24T23:39:17,966] <localhost-startStop-1> INFO  system - BASE dir:/usr/lib/unifi
+[2021-01-24T23:39:17,989] <localhost-startStop-1> INFO  system - Current System IP: 172.31.0.2
+[2021-01-24T23:39:17,989] <localhost-startStop-1> INFO  system - Hostname: 858cbcb3450f
+[2021-01-24T23:39:17,991] <localhost-startStop-1> INFO  system - ubic.env: prod
+[2021-01-24T23:39:18,208] <localhost-startStop-1> INFO  db     - waiting for db connection...
+[2021-01-24T23:39:19,708] <localhost-startStop-1> INFO  db     - Connecting to mongodb://localhost:27117
+[2021-01-24T23:39:20,767] <localhost-startStop-1> INFO  db     - setting mongodb features compatibility version to 3.6
+[2021-01-24T23:39:21,346] <localhost-startStop-1> INFO  db     - Connecting to mongodb://localhost:27117
+[2021-01-24T23:39:21,672] <localhost-startStop-1> INFO  productinfo - Using controller channel=RELEASE, firmware channel=RELEASE. Available controller channels=[RELEASE], available firmware channels=[RELEASE]. SSO is enabled.
+[2021-01-24T23:39:21,921] <localhost-startStop-1> INFO  webrtc - WebRTC library version: EvoStream Media Server (www.evostream.com) build v2.9.1 - Gladiator - (built for Debian-8.2.0-x86_64 on 2020-02-05T23:33:19.000) OpenSSL version: 1.1.1d usrsctp version: v0.1.2 compiled on machine: Linux debian-8-2-0-64 3.16.0-6-amd64 #1 SMP Debian 3.16.57-2 (2018-07-14) x86_64 GNU/Linux
+[2021-01-24T23:39:22,088] <localhost-startStop-1> INFO  remote - Directory '/usr/lib/unifi/logs/remote' present
+[2021-01-24T23:39:22,092] <localhost-startStop-1> INFO  remote - started remote log server
+[2021-01-24T23:39:28,685] <ucare-device-check-task> WARN  ucare  - Device check failed: Cloud operation failed! RC=404, error: {"code":"NOT_FOUND","timestamp":"1611531568"}
+[2021-01-24T23:40:06,386] <webapi-2> WARN  api    - websocket session error:Unable to unwrap data, invalid status [CLOSED]
+[2021-01-24T23:43:00,004] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-24T23:43:00,004] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-24T23:45:47,692] <webapi-14> WARN  dev    - scheduleTask(): type=setparam ignoring for unsupported device=18:e8:29:06:66:94, device may be stale now
+[2021-01-24T23:46:25,129] <webapi-21> WARN  api    - websocket session error:Unable to unwrap data, invalid status [CLOSED]
+[2021-01-24T23:46:35,859] <inform-1> WARN  inform - inform ip changed (null -> 10.23.47.109), re-provisioning scheduled
+[2021-01-24T23:48:13,086] <webapi-14> WARN  sanitize - Invalid key exists in Device payload, key=type_v6
+[2021-01-24T23:51:40,358] <MQTT Ping: a9a3be45-2316-4dbf-8dc2-cdc51b5aae15> ERROR ClientState - a9a3be45-2316-4dbf-8dc2-cdc51b5aae15: Timed out as no activity, keepAlive=30,000 lastOutboundActivity=1,611,532,270,357 lastInboundActivity=1,611,532,240,522 time=1,611,532,300,357 lastPing=1,611,532,270,357
+[2021-01-24T23:51:44,212] <inform-1> WARN  inform - inform ip changed (null -> 10.23.47.109), re-provisioning scheduled
+[2021-01-24T23:51:44,213] <inform-1> WARN  dev    - dev[18:e8:29:06:66:94] (unsupported) won't be provisioned, will become stale
+[2021-01-25T00:09:22,035] <webapi-81> WARN  sanitize - Invalid key exists in Device payload, key=type_v6
+[2021-01-25T00:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-25T00:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-25T01:39:29,392] <ubnt/tcp> WARN  dev    - [sshCommand exec] Execute SSH without host key verification!
+[2021-01-25T01:39:29,874] <inform-2> WARN  inform - inform ip changed (null -> 10.23.47.109), re-provisioning scheduled
+[2021-01-25T01:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-25T01:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-25T01:46:38,326] <webapi-356> WARN  sanitize - Invalid key exists in Device payload, key=type_v6
+[2021-01-25T01:47:02,698] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_from while trying to render device name
+[2021-01-25T01:47:02,698] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_to while trying to render device name
+[2021-01-25T01:47:02,699] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_from while trying to render device name
+[2021-01-25T01:47:02,699] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_to while trying to render device name
+[2021-01-25T01:47:46,869] <ubnt/tcp> WARN  dev    - [sshCommand exec] Execute SSH without host key verification!
+[2021-01-25T01:47:52,074] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_from while trying to render device name
+[2021-01-25T01:47:52,074] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_to while trying to render device name
+[2021-01-25T01:48:05,360] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_from while trying to render device name
+[2021-01-25T01:48:05,360] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_to while trying to render device name
+[2021-01-25T01:51:39,961] <MQTT Ping: a9a3be45-2316-4dbf-8dc2-cdc51b5aae15> ERROR ClientState - a9a3be45-2316-4dbf-8dc2-cdc51b5aae15: Timed out as no activity, keepAlive=30,000 lastOutboundActivity=1,611,539,469,961 lastInboundActivity=1,611,539,440,033 time=1,611,539,499,961 lastPing=1,611,539,469,961
+[2021-01-25T01:51:40,749] <inform-2> WARN  inform - inform ip changed (null -> 10.23.47.109), re-provisioning scheduled
+[2021-01-25T01:51:40,749] <inform-2> WARN  dev    - dev[18:e8:29:06:68:aa] (unsupported) won't be provisioned, will become stale
+[2021-01-25T01:59:22,101] <MQTT Ping: a9a3be45-2316-4dbf-8dc2-cdc51b5aae15> ERROR ClientState - a9a3be45-2316-4dbf-8dc2-cdc51b5aae15: Timed out as no activity, keepAlive=30,000 lastOutboundActivity=1,611,539,932,101 lastInboundActivity=1,611,539,902,173 time=1,611,539,962,101 lastPing=1,611,539,932,101
+[2021-01-25T01:59:45,121] <MQTT Con: a9a3be45-2316-4dbf-8dc2-cdc51b5aae15> WARN  AwsIotMqttConnectionListener - Connect request failure
+org.eclipse.paho.client.mqttv3.MqttException: MqttException
+	at org.eclipse.paho.client.mqttv3.internal.ExceptionHelper.createMqttException(ExceptionHelper.java:38) ~[org.eclipse.paho.client.mqttv3-1.1.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.ClientComms$ConnectBG.run(ClientComms.java:664) [org.eclipse.paho.client.mqttv3-1.1.0.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_275]
+Caused by: java.net.UnknownHostException: a1ewuiz2p7wdvw-ats.iot.us-west-2.amazonaws.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184) ~[?:1.8.0_275]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_275]
+	at java.net.Socket.connect(Socket.java:607) ~[?:1.8.0_275]
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:284) ~[?:1.8.0_275]
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:70) ~[org.eclipse.paho.client.mqttv3-1.1.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.SSLNetworkModule.start(SSLNetworkModule.java:86) ~[org.eclipse.paho.client.mqttv3-1.1.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.ClientComms$ConnectBG.run(ClientComms.java:650) ~[org.eclipse.paho.client.mqttv3-1.1.0.jar:?]
+	... 1 more
+[2021-01-25T01:59:51,129] <MQTT Con: a9a3be45-2316-4dbf-8dc2-cdc51b5aae15> WARN  AwsIotMqttConnectionListener - Connect request failure
+org.eclipse.paho.client.mqttv3.MqttException: MqttException
+	at org.eclipse.paho.client.mqttv3.internal.ExceptionHelper.createMqttException(ExceptionHelper.java:38) ~[org.eclipse.paho.client.mqttv3-1.1.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.ClientComms$ConnectBG.run(ClientComms.java:664) [org.eclipse.paho.client.mqttv3-1.1.0.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_275]
+Caused by: java.net.UnknownHostException: a1ewuiz2p7wdvw-ats.iot.us-west-2.amazonaws.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184) ~[?:1.8.0_275]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_275]
+	at java.net.Socket.connect(Socket.java:607) ~[?:1.8.0_275]
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:284) ~[?:1.8.0_275]
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:70) ~[org.eclipse.paho.client.mqttv3-1.1.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.SSLNetworkModule.start(SSLNetworkModule.java:86) ~[org.eclipse.paho.client.mqttv3-1.1.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.ClientComms$ConnectBG.run(ClientComms.java:650) ~[org.eclipse.paho.client.mqttv3-1.1.0.jar:?]
+	... 1 more
+[2021-01-25T02:00:23,150] <MQTT Con: a9a3be45-2316-4dbf-8dc2-cdc51b5aae15> WARN  AwsIotMqttConnectionListener - Connect request failure
+org.eclipse.paho.client.mqttv3.MqttException: MqttException
+	at org.eclipse.paho.client.mqttv3.internal.ExceptionHelper.createMqttException(ExceptionHelper.java:38) ~[org.eclipse.paho.client.mqttv3-1.1.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.ClientComms$ConnectBG.run(ClientComms.java:664) [org.eclipse.paho.client.mqttv3-1.1.0.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_275]
+Caused by: java.net.UnknownHostException: a1ewuiz2p7wdvw-ats.iot.us-west-2.amazonaws.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184) ~[?:1.8.0_275]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_275]
+	at java.net.Socket.connect(Socket.java:607) ~[?:1.8.0_275]
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:284) ~[?:1.8.0_275]
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:70) ~[org.eclipse.paho.client.mqttv3-1.1.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.SSLNetworkModule.start(SSLNetworkModule.java:86) ~[org.eclipse.paho.client.mqttv3-1.1.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.ClientComms$ConnectBG.run(ClientComms.java:650) ~[org.eclipse.paho.client.mqttv3-1.1.0.jar:?]
+	... 1 more
+[2021-01-25T02:01:07,169] <MQTT Con: a9a3be45-2316-4dbf-8dc2-cdc51b5aae15> WARN  AwsIotMqttConnectionListener - Connect request failure
+org.eclipse.paho.client.mqttv3.MqttException: MqttException
+	at org.eclipse.paho.client.mqttv3.internal.ExceptionHelper.createMqttException(ExceptionHelper.java:38) ~[org.eclipse.paho.client.mqttv3-1.1.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.ClientComms$ConnectBG.run(ClientComms.java:664) [org.eclipse.paho.client.mqttv3-1.1.0.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_275]
+Caused by: java.net.UnknownHostException: a1ewuiz2p7wdvw-ats.iot.us-west-2.amazonaws.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184) ~[?:1.8.0_275]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_275]
+	at java.net.Socket.connect(Socket.java:607) ~[?:1.8.0_275]
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:284) ~[?:1.8.0_275]
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:70) ~[org.eclipse.paho.client.mqttv3-1.1.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.SSLNetworkModule.start(SSLNetworkModule.java:86) ~[org.eclipse.paho.client.mqttv3-1.1.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.ClientComms$ConnectBG.run(ClientComms.java:650) ~[org.eclipse.paho.client.mqttv3-1.1.0.jar:?]
+	... 1 more
+[2021-01-25T02:01:57,186] <MQTT Con: a9a3be45-2316-4dbf-8dc2-cdc51b5aae15> WARN  AwsIotMqttConnectionListener - Connect request failure
+org.eclipse.paho.client.mqttv3.MqttException: MqttException
+	at org.eclipse.paho.client.mqttv3.internal.ExceptionHelper.createMqttException(ExceptionHelper.java:38) ~[org.eclipse.paho.client.mqttv3-1.1.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.ClientComms$ConnectBG.run(ClientComms.java:664) [org.eclipse.paho.client.mqttv3-1.1.0.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_275]
+Caused by: java.net.UnknownHostException: a1ewuiz2p7wdvw-ats.iot.us-west-2.amazonaws.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184) ~[?:1.8.0_275]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_275]
+	at java.net.Socket.connect(Socket.java:607) ~[?:1.8.0_275]
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:284) ~[?:1.8.0_275]
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:70) ~[org.eclipse.paho.client.mqttv3-1.1.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.SSLNetworkModule.start(SSLNetworkModule.java:86) ~[org.eclipse.paho.client.mqttv3-1.1.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.ClientComms$ConnectBG.run(ClientComms.java:650) ~[org.eclipse.paho.client.mqttv3-1.1.0.jar:?]
+	... 1 more
+[2021-01-25T02:02:47,201] <MQTT Con: a9a3be45-2316-4dbf-8dc2-cdc51b5aae15> WARN  AwsIotMqttConnectionListener - Connect request failure
+org.eclipse.paho.client.mqttv3.MqttException: MqttException
+	at org.eclipse.paho.client.mqttv3.internal.ExceptionHelper.createMqttException(ExceptionHelper.java:38) ~[org.eclipse.paho.client.mqttv3-1.1.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.ClientComms$ConnectBG.run(ClientComms.java:664) [org.eclipse.paho.client.mqttv3-1.1.0.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_275]
+Caused by: java.net.UnknownHostException: a1ewuiz2p7wdvw-ats.iot.us-west-2.amazonaws.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184) ~[?:1.8.0_275]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_275]
+	at java.net.Socket.connect(Socket.java:607) ~[?:1.8.0_275]
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:284) ~[?:1.8.0_275]
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:70) ~[org.eclipse.paho.client.mqttv3-1.1.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.SSLNetworkModule.start(SSLNetworkModule.java:86) ~[org.eclipse.paho.client.mqttv3-1.1.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.ClientComms$ConnectBG.run(ClientComms.java:650) ~[org.eclipse.paho.client.mqttv3-1.1.0.jar:?]
+	... 1 more
+[2021-01-25T02:03:37,217] <MQTT Con: a9a3be45-2316-4dbf-8dc2-cdc51b5aae15> WARN  AwsIotMqttConnectionListener - Connect request failure
+org.eclipse.paho.client.mqttv3.MqttException: MqttException
+	at org.eclipse.paho.client.mqttv3.internal.ExceptionHelper.createMqttException(ExceptionHelper.java:38) ~[org.eclipse.paho.client.mqttv3-1.1.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.ClientComms$ConnectBG.run(ClientComms.java:664) [org.eclipse.paho.client.mqttv3-1.1.0.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_275]
+Caused by: java.net.UnknownHostException: a1ewuiz2p7wdvw-ats.iot.us-west-2.amazonaws.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184) ~[?:1.8.0_275]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_275]
+	at java.net.Socket.connect(Socket.java:607) ~[?:1.8.0_275]
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:284) ~[?:1.8.0_275]
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:70) ~[org.eclipse.paho.client.mqttv3-1.1.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.SSLNetworkModule.start(SSLNetworkModule.java:86) ~[org.eclipse.paho.client.mqttv3-1.1.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.ClientComms$ConnectBG.run(ClientComms.java:650) ~[org.eclipse.paho.client.mqttv3-1.1.0.jar:?]
+	... 1 more
+[2021-01-25T02:04:27,234] <MQTT Con: a9a3be45-2316-4dbf-8dc2-cdc51b5aae15> WARN  AwsIotMqttConnectionListener - Connect request failure
+org.eclipse.paho.client.mqttv3.MqttException: MqttException
+	at org.eclipse.paho.client.mqttv3.internal.ExceptionHelper.createMqttException(ExceptionHelper.java:38) ~[org.eclipse.paho.client.mqttv3-1.1.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.ClientComms$ConnectBG.run(ClientComms.java:664) [org.eclipse.paho.client.mqttv3-1.1.0.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_275]
+Caused by: java.net.UnknownHostException: a1ewuiz2p7wdvw-ats.iot.us-west-2.amazonaws.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184) ~[?:1.8.0_275]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_275]
+	at java.net.Socket.connect(Socket.java:607) ~[?:1.8.0_275]
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:284) ~[?:1.8.0_275]
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:70) ~[org.eclipse.paho.client.mqttv3-1.1.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.SSLNetworkModule.start(SSLNetworkModule.java:86) ~[org.eclipse.paho.client.mqttv3-1.1.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.ClientComms$ConnectBG.run(ClientComms.java:650) ~[org.eclipse.paho.client.mqttv3-1.1.0.jar:?]
+	... 1 more
+[2021-01-25T02:05:17,258] <MQTT Con: a9a3be45-2316-4dbf-8dc2-cdc51b5aae15> WARN  AwsIotMqttConnectionListener - Connect request failure
+org.eclipse.paho.client.mqttv3.MqttException: MqttException
+	at org.eclipse.paho.client.mqttv3.internal.ExceptionHelper.createMqttException(ExceptionHelper.java:38) ~[org.eclipse.paho.client.mqttv3-1.1.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.ClientComms$ConnectBG.run(ClientComms.java:664) [org.eclipse.paho.client.mqttv3-1.1.0.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_275]
+Caused by: java.net.UnknownHostException: a1ewuiz2p7wdvw-ats.iot.us-west-2.amazonaws.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184) ~[?:1.8.0_275]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_275]
+	at java.net.Socket.connect(Socket.java:607) ~[?:1.8.0_275]
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:284) ~[?:1.8.0_275]
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:70) ~[org.eclipse.paho.client.mqttv3-1.1.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.SSLNetworkModule.start(SSLNetworkModule.java:86) ~[org.eclipse.paho.client.mqttv3-1.1.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.ClientComms$ConnectBG.run(ClientComms.java:650) ~[org.eclipse.paho.client.mqttv3-1.1.0.jar:?]
+	... 1 more
+[2021-01-25T02:06:07,277] <MQTT Con: a9a3be45-2316-4dbf-8dc2-cdc51b5aae15> WARN  AwsIotMqttConnectionListener - Connect request failure
+org.eclipse.paho.client.mqttv3.MqttException: MqttException
+	at org.eclipse.paho.client.mqttv3.internal.ExceptionHelper.createMqttException(ExceptionHelper.java:38) ~[org.eclipse.paho.client.mqttv3-1.1.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.ClientComms$ConnectBG.run(ClientComms.java:664) [org.eclipse.paho.client.mqttv3-1.1.0.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_275]
+Caused by: java.net.UnknownHostException: a1ewuiz2p7wdvw-ats.iot.us-west-2.amazonaws.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184) ~[?:1.8.0_275]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_275]
+	at java.net.Socket.connect(Socket.java:607) ~[?:1.8.0_275]
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:284) ~[?:1.8.0_275]
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:70) ~[org.eclipse.paho.client.mqttv3-1.1.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.SSLNetworkModule.start(SSLNetworkModule.java:86) ~[org.eclipse.paho.client.mqttv3-1.1.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.ClientComms$ConnectBG.run(ClientComms.java:650) ~[org.eclipse.paho.client.mqttv3-1.1.0.jar:?]
+	... 1 more
+[2021-01-25T02:06:57,292] <MQTT Con: a9a3be45-2316-4dbf-8dc2-cdc51b5aae15> WARN  AwsIotMqttConnectionListener - Connect request failure
+org.eclipse.paho.client.mqttv3.MqttException: MqttException
+	at org.eclipse.paho.client.mqttv3.internal.ExceptionHelper.createMqttException(ExceptionHelper.java:38) ~[org.eclipse.paho.client.mqttv3-1.1.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.ClientComms$ConnectBG.run(ClientComms.java:664) [org.eclipse.paho.client.mqttv3-1.1.0.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_275]
+Caused by: java.net.UnknownHostException: a1ewuiz2p7wdvw-ats.iot.us-west-2.amazonaws.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184) ~[?:1.8.0_275]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_275]
+	at java.net.Socket.connect(Socket.java:607) ~[?:1.8.0_275]
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:284) ~[?:1.8.0_275]
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:70) ~[org.eclipse.paho.client.mqttv3-1.1.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.SSLNetworkModule.start(SSLNetworkModule.java:86) ~[org.eclipse.paho.client.mqttv3-1.1.0.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.ClientComms$ConnectBG.run(ClientComms.java:650) ~[org.eclipse.paho.client.mqttv3-1.1.0.jar:?]
+	... 1 more
+[2021-01-25T02:08:06,991] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_from while trying to render device name
+[2021-01-25T02:08:06,991] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_to while trying to render device name
+[2021-01-25T02:08:43,438] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_from while trying to render device name
+[2021-01-25T02:08:43,438] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_to while trying to render device name
+[2021-01-25T02:09:55,864] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_from while trying to render device name
+[2021-01-25T02:09:55,864] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_to while trying to render device name
+[2021-01-25T02:13:45,751] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_from while trying to render device name
+[2021-01-25T02:13:45,751] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_to while trying to render device name
+[2021-01-25T02:13:52,267] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_from while trying to render device name
+[2021-01-25T02:13:52,267] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_to while trying to render device name
+[2021-01-25T02:34:37,463] <webapi-472> WARN  sanitize - Invalid key exists in Device payload, key=type_v6
+[2021-01-25T02:38:29,296] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_from while trying to render device name
+[2021-01-25T02:38:29,297] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_to while trying to render device name
+[2021-01-25T02:38:29,298] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_from while trying to render device name
+[2021-01-25T02:38:29,298] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_to while trying to render device name
+[2021-01-25T02:39:06,332] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_from while trying to render device name
+[2021-01-25T02:39:06,332] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_to while trying to render device name
+[2021-01-25T02:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-25T02:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-25T02:46:58,634] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_from while trying to render device name
+[2021-01-25T02:46:58,634] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_to while trying to render device name
+[2021-01-25T03:12:01,072] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_from while trying to render device name
+[2021-01-25T03:12:01,072] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_to while trying to render device name
+[2021-01-25T03:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-25T03:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-25T04:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-25T04:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-25T05:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-25T05:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-25T06:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-25T06:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-25T07:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-25T07:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-25T08:43:00,000] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-25T08:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-25T09:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-25T09:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-25T10:00:00,001] <schedule-radio-ai> INFO  scheduler - Executing scheduled task of Radio AI for site Default
+[2021-01-25T10:00:00,040] <schedule-radio-ai> INFO  scheduler - Site Default: executing Radio AI 2G
+[2021-01-25T10:00:00,048] <schedule-radio-ai> INFO  scheduler - device[80:2a:a8:d0:b0:52] scan ng: started
+[2021-01-25T10:00:05,048] <schedule-radio-ai> INFO  scheduler - device[80:2a:a8:d0:b0:e6] scan ng: started
+[2021-01-25T10:01:10,182] <schedule-radio-ai> INFO  scheduler - RadioAI Init for ng radio:
+[2021-01-25T10:01:10,182] <schedule-radio-ai> INFO  scheduler - RadioAI Init: fitness 6.18 -> 6.18 Mbit/s => Applying
+[2021-01-25T10:01:10,183] <schedule-radio-ai> INFO  scheduler - RadioAI Init: Current satisfaction: 87.8
+[2021-01-25T10:01:10,185] <schedule-radio-ai> INFO  scheduler - Site Default: executing Radio AI 5G
+[2021-01-25T10:01:10,188] <schedule-radio-ai> INFO  scheduler - device[80:2a:a8:d0:b0:52] scan na: started
+[2021-01-25T10:01:15,188] <schedule-radio-ai> INFO  scheduler - device[80:2a:a8:d0:b0:e6] scan na: started
+[2021-01-25T10:02:20,218] <schedule-radio-ai> INFO  scheduler - RadioAI Init for na radio:
+[2021-01-25T10:02:20,218] <schedule-radio-ai> INFO  scheduler - RadioAI Init: fitness 193.4 -> 193.4 Mbit/s => Applying
+[2021-01-25T10:02:20,221] <schedule-radio-ai> INFO  scheduler - RadioAI Init: Current satisfaction: 84.5
+[2021-01-25T10:02:20,222] <schedule-radio-ai> INFO  manager - device[80:2a:a8:d0:b0:52]-wifi0 ch:0=>1 backup_ch:0=>0 ht:0=>20
+[2021-01-25T10:02:20,222] <schedule-radio-ai> INFO  manager - device[80:2a:a8:d0:b0:52]-wifi1 ch:0=>149 backup_ch:0=>0 ht:0=>40
+[2021-01-25T10:02:20,225] <schedule-radio-ai> INFO  manager - device[80:2a:a8:d0:b0:e6]-wifi0 ch:0=>11 backup_ch:0=>0 ht:0=>20
+[2021-01-25T10:02:20,225] <schedule-radio-ai> INFO  manager - device[80:2a:a8:d0:b0:e6]-wifi1 ch:0=>36 backup_ch:0=>0 ht:0=>40
+[2021-01-25T10:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-25T10:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-25T11:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-25T11:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-25T12:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-25T12:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-25T13:43:00,000] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-25T13:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-25T14:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-25T14:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-25T15:02:13,643] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_from while trying to render device name
+[2021-01-25T15:02:13,643] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_to while trying to render device name
+[2021-01-25T15:02:33,739] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_from while trying to render device name
+[2021-01-25T15:02:33,739] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_to while trying to render device name
+[2021-01-25T15:02:49,234] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_from while trying to render device name
+[2021-01-25T15:02:49,234] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_to while trying to render device name
+[2021-01-25T15:17:05,204] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_from while trying to render device name
+[2021-01-25T15:17:05,204] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_to while trying to render device name
+[2021-01-25T15:33:01,501] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_from while trying to render device name
+[2021-01-25T15:33:01,501] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_to while trying to render device name
+[2021-01-25T15:43:00,000] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-25T15:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-25T15:47:31,273] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_from while trying to render device name
+[2021-01-25T15:47:31,273] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_to while trying to render device name
+[2021-01-25T16:11:07,882] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_from while trying to render device name
+[2021-01-25T16:11:07,882] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_to while trying to render device name
+[2021-01-25T16:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-25T16:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-25T16:43:56,605] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_from while trying to render device name
+[2021-01-25T16:43:56,605] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_to while trying to render device name
+[2021-01-25T16:50:07,508] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_from while trying to render device name
+[2021-01-25T16:50:07,508] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_to while trying to render device name
+[2021-01-25T17:02:27,882] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_from while trying to render device name
+[2021-01-25T17:02:27,882] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_to while trying to render device name
+[2021-01-25T17:03:16,857] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_from while trying to render device name
+[2021-01-25T17:03:16,857] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_to while trying to render device name
+[2021-01-25T17:05:13,433] <MQTT Ping: a9a3be45-2316-4dbf-8dc2-cdc51b5aae15> ERROR ClientState - a9a3be45-2316-4dbf-8dc2-cdc51b5aae15: Timed out as no activity, keepAlive=30,000 lastOutboundActivity=1,611,594,283,433 lastInboundActivity=1,611,594,253,506 time=1,611,594,313,433 lastPing=1,611,594,283,433
+[2021-01-25T17:43:00,000] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-25T17:43:00,000] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-25T18:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-25T18:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-25T19:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-25T19:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-25T20:09:19,044] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_from while trying to render device name
+[2021-01-25T20:09:19,044] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_to while trying to render device name
+[2021-01-25T20:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-25T20:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-25T21:10:51,028] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_from while trying to render device name
+[2021-01-25T21:10:51,030] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_to while trying to render device name
+[2021-01-25T21:23:12,694] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_from while trying to render device name
+[2021-01-25T21:23:12,694] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_to while trying to render device name
+[2021-01-25T21:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-25T21:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-25T22:24:14,441] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_from while trying to render device name
+[2021-01-25T22:24:14,442] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_to while trying to render device name
+[2021-01-25T22:43:00,000] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-25T22:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-25T23:03:40,249] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_from while trying to render device name
+[2021-01-25T23:03:40,249] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_to while trying to render device name
+[2021-01-25T23:11:59,307] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_from while trying to render device name
+[2021-01-25T23:11:59,307] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_to while trying to render device name
+[2021-01-25T23:34:51,568] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_from while trying to render device name
+[2021-01-25T23:34:51,568] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_to while trying to render device name
+[2021-01-25T23:34:51,569] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_from while trying to render device name
+[2021-01-25T23:34:51,569] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_to while trying to render device name
+[2021-01-25T23:39:22,101] <request-performance-report> WARN  tracer - Unable to read request stats from /usr/lib/unifi/data/request_metrics.csv - File '/usr/lib/unifi/data/request_metrics.csv' does not exist
+[2021-01-25T23:39:22,951] <ucare-device-check> WARN  ucare  - Device check failed: Cloud operation failed! RC=404, error: {"code":"NOT_FOUND","timestamp":"1611617962"}
+[2021-01-25T23:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-25T23:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-26T00:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-26T00:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-26T01:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-26T01:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-26T01:58:57,704] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_from while trying to render device name
+[2021-01-26T01:58:57,704] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_to while trying to render device name
+[2021-01-26T02:13:41,680] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_from while trying to render device name
+[2021-01-26T02:13:41,680] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_to while trying to render device name
+[2021-01-26T02:26:55,627] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_from while trying to render device name
+[2021-01-26T02:26:55,627] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_to while trying to render device name
+[2021-01-26T02:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-26T02:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-26T03:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-26T03:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-26T04:43:00,000] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-26T04:43:00,000] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-26T05:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-26T05:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-26T06:34:52,676] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_from while trying to render device name
+[2021-01-26T06:34:52,676] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_to while trying to render device name
+[2021-01-26T06:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-26T06:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-26T07:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-26T07:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-26T08:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-26T08:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-26T09:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-26T09:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-26T10:00:00,001] <schedule-radio-ai> INFO  scheduler - Executing scheduled task of Radio AI for site Default
+[2021-01-26T10:00:00,012] <schedule-radio-ai> INFO  scheduler - Site Default: executing Radio AI 2G
+[2021-01-26T10:00:00,018] <schedule-radio-ai> INFO  scheduler - RadioAI Update for ng radio: [attempt: 1]
+[2021-01-26T10:00:00,018] <schedule-radio-ai> INFO  scheduler - RadioAI Update: satisfaction 87.8 -> 85.9 % => Not improved [attempt: 1]
+[2021-01-26T10:00:00,019] <schedule-radio-ai> INFO  scheduler - device[80:2a:a8:d0:b0:52] scan ng: started
+[2021-01-26T10:00:05,019] <schedule-radio-ai> INFO  scheduler - device[80:2a:a8:d0:b0:e6] scan ng: started
+[2021-01-26T10:01:10,057] <schedule-radio-ai> INFO  scheduler - RadioAI Update: Blacklisting channels, trying one more time [attempt: 2]
+[2021-01-26T10:01:10,059] <schedule-radio-ai> INFO  scheduler - Site Default: executing Radio AI 5G
+[2021-01-26T10:01:10,064] <schedule-radio-ai> INFO  scheduler - RadioAI Update for na radio: [attempt: 1]
+[2021-01-26T10:01:10,064] <schedule-radio-ai> INFO  scheduler - RadioAI Update: satisfaction 84.5 -> 94.4 % => Improved [attempt: 1]
+[2021-01-26T10:01:10,065] <schedule-radio-ai> INFO  scheduler - RadioAI Update: Success. [attempt: 1]
+[2021-01-26T10:01:10,065] <schedule-radio-ai> INFO  manager - device[80:2a:a8:d0:b0:52]-wifi0 ch:1 backup_ch:0 ht:20 not changed, skipping
+[2021-01-26T10:01:10,065] <schedule-radio-ai> INFO  manager - device[80:2a:a8:d0:b0:e6]-wifi0 ch:11 backup_ch:0 ht:20 not changed, skipping
+[2021-01-26T10:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-26T10:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-26T11:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-26T11:43:00,007] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-26T12:43:00,000] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-26T12:43:00,000] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-26T13:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-26T13:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-26T14:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-26T14:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-26T15:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-26T15:43:00,002] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-26T16:36:28,950] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_from while trying to render device name
+[2021-01-26T16:36:28,951] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_to while trying to render device name
+[2021-01-26T16:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-26T16:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-26T17:00:53,667] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_from while trying to render device name
+[2021-01-26T17:00:53,669] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_to while trying to render device name
+[2021-01-26T17:30:11,244] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_from while trying to render device name
+[2021-01-26T17:30:11,244] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_to while trying to render device name
+[2021-01-26T17:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-26T17:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-26T18:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-26T18:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-26T19:03:46,265] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_from while trying to render device name
+[2021-01-26T19:03:46,267] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_to while trying to render device name
+[2021-01-26T19:25:38,063] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_from while trying to render device name
+[2021-01-26T19:25:38,063] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_to while trying to render device name
+[2021-01-26T19:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-26T19:43:00,003] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-26T20:03:54,889] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_from while trying to render device name
+[2021-01-26T20:03:54,890] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_to while trying to render device name
+[2021-01-26T20:03:57,358] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_from while trying to render device name
+[2021-01-26T20:03:57,358] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_to while trying to render device name
+[2021-01-26T20:04:09,680] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_from while trying to render device name
+[2021-01-26T20:04:09,680] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_to while trying to render device name
+[2021-01-26T20:04:18,111] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_from while trying to render device name
+[2021-01-26T20:04:18,112] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_to while trying to render device name
+[2021-01-26T20:07:26,623] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_from while trying to render device name
+[2021-01-26T20:07:26,623] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_to while trying to render device name
+[2021-01-26T20:08:20,610] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_from while trying to render device name
+[2021-01-26T20:08:20,610] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_to while trying to render device name
+[2021-01-26T20:08:20,611] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_from while trying to render device name
+[2021-01-26T20:08:20,611] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_to while trying to render device name
+[2021-01-26T20:25:49,264] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_from while trying to render device name
+[2021-01-26T20:25:49,264] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_to while trying to render device name
+[2021-01-26T20:43:00,000] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-26T20:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-26T21:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-26T21:43:00,003] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-26T22:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-26T22:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-26T23:39:22,106] <request-performance-report> WARN  tracer - Unable to read request stats from /usr/lib/unifi/data/request_metrics.csv - File '/usr/lib/unifi/data/request_metrics.csv' does not exist
+[2021-01-26T23:39:25,823] <ucare-device-check> WARN  ucare  - Device check failed: Cloud operation failed! RC=404, error: {"code":"NOT_FOUND","timestamp":"1611704365"}
+[2021-01-26T23:43:00,000] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-26T23:43:00,000] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-27T00:21:51,606] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_from while trying to render device name
+[2021-01-27T00:21:51,606] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_to while trying to render device name
+[2021-01-27T00:42:00,357] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_from while trying to render device name
+[2021-01-27T00:42:00,357] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_to while trying to render device name
+[2021-01-27T00:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-27T00:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-27T00:46:07,797] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_from while trying to render device name
+[2021-01-27T00:46:07,797] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_to while trying to render device name
+[2021-01-27T00:59:37,696] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_from while trying to render device name
+[2021-01-27T00:59:37,696] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_to while trying to render device name
+[2021-01-27T01:00:21,323] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_from while trying to render device name
+[2021-01-27T01:00:21,323] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_to while trying to render device name
+[2021-01-27T01:43:00,000] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-27T01:43:00,000] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-27T02:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-27T02:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-27T02:50:13,449] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_from while trying to render device name
+[2021-01-27T02:50:13,449] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_to while trying to render device name
+[2021-01-27T03:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-27T03:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-27T04:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-27T04:43:00,007] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-27T05:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-27T05:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-27T06:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-27T06:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-27T07:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-27T07:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-27T08:43:00,000] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-27T08:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-27T09:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-27T09:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-27T10:00:00,001] <schedule-radio-ai> INFO  scheduler - Executing scheduled task of Radio AI for site Default
+[2021-01-27T10:00:00,004] <schedule-radio-ai> INFO  scheduler - Site Default: executing Radio AI 2G
+[2021-01-27T10:00:00,010] <schedule-radio-ai> INFO  scheduler - RadioAI Update for ng radio: [attempt: 2]
+[2021-01-27T10:00:00,010] <schedule-radio-ai> INFO  scheduler - RadioAI Update: satisfaction 87.8 -> 94.4 % => Improved [attempt: 2]
+[2021-01-27T10:00:00,010] <schedule-radio-ai> INFO  scheduler - RadioAI Update: Success. [attempt: 2]
+[2021-01-27T10:00:00,012] <schedule-radio-ai> INFO  scheduler - Site Default: executing Radio AI 5G
+[2021-01-27T10:00:00,018] <schedule-radio-ai> INFO  scheduler - device[80:2a:a8:d0:b0:52] scan na: started
+[2021-01-27T10:00:05,018] <schedule-radio-ai> INFO  scheduler - device[80:2a:a8:d0:b0:e6] scan na: started
+[2021-01-27T10:01:10,042] <schedule-radio-ai> INFO  scheduler - RadioAI Init for na radio:
+[2021-01-27T10:01:10,042] <schedule-radio-ai> INFO  scheduler - RadioAI Init: fitness 212.79 -> 212.79 Mbit/s => Applying
+[2021-01-27T10:01:10,045] <schedule-radio-ai> INFO  scheduler - RadioAI Init: Current satisfaction: 97.7
+[2021-01-27T10:01:10,045] <schedule-radio-ai> INFO  manager - device[80:2a:a8:d0:b0:52]-wifi1 ch:149 backup_ch:0 ht:40 not changed, skipping
+[2021-01-27T10:01:10,045] <schedule-radio-ai> INFO  manager - device[80:2a:a8:d0:b0:e6]-wifi1 ch:36 backup_ch:0 ht:40 not changed, skipping
+[2021-01-27T10:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-27T10:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-27T11:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-27T11:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-27T12:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-27T12:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-27T13:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-27T13:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-27T14:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-27T14:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-27T15:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-27T15:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-27T16:27:50,760] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_from while trying to render device name
+[2021-01-27T16:27:50,760] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_to while trying to render device name
+[2021-01-27T16:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-27T16:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-27T17:03:17,798] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_from while trying to render device name
+[2021-01-27T17:03:17,798] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_to while trying to render device name
+[2021-01-27T17:04:13,373] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_from while trying to render device name
+[2021-01-27T17:04:13,373] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_to while trying to render device name
+[2021-01-27T17:43:00,000] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-27T17:43:00,000] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-27T18:21:11,568] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_from while trying to render device name
+[2021-01-27T18:21:11,568] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_to while trying to render device name
+[2021-01-27T18:25:31,279] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_from while trying to render device name
+[2021-01-27T18:25:31,279] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_to while trying to render device name
+[2021-01-27T18:43:00,000] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-27T18:43:00,000] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-27T19:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-27T19:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-27T20:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-27T20:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-27T20:54:51,166] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_from while trying to render device name
+[2021-01-27T20:54:51,166] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_to while trying to render device name
+[2021-01-27T20:57:08,799] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_from while trying to render device name
+[2021-01-27T20:57:08,799] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_to while trying to render device name
+[2021-01-27T21:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-27T21:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-27T22:29:21,207] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_from while trying to render device name
+[2021-01-27T22:29:21,207] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_to while trying to render device name
+[2021-01-27T22:34:42,611] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_from while trying to render device name
+[2021-01-27T22:34:42,611] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_to while trying to render device name
+[2021-01-27T22:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-27T22:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-27T23:39:22,101] <request-performance-report> WARN  tracer - Unable to read request stats from /usr/lib/unifi/data/request_metrics.csv - File '/usr/lib/unifi/data/request_metrics.csv' does not exist
+[2021-01-27T23:39:23,135] <ucare-device-check> WARN  ucare  - Device check failed: Cloud operation failed! RC=404, error: {"code":"NOT_FOUND","timestamp":"1611790763"}
+[2021-01-27T23:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-27T23:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-28T00:14:39,884] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_from while trying to render device name
+[2021-01-28T00:14:39,885] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_to while trying to render device name
+[2021-01-28T00:20:18,582] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_from while trying to render device name
+[2021-01-28T00:20:18,582] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_to while trying to render device name
+[2021-01-28T00:24:47,045] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_from while trying to render device name
+[2021-01-28T00:24:47,045] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_to while trying to render device name
+[2021-01-28T00:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-28T00:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-28T01:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-28T01:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-28T02:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-28T02:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-28T03:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-28T03:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-28T04:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-28T04:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-28T05:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-28T05:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-28T06:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-28T06:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-28T07:43:00,000] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-28T07:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-28T08:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-28T08:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-28T09:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-28T09:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-28T10:00:00,001] <schedule-radio-ai> INFO  scheduler - Executing scheduled task of Radio AI for site Default
+[2021-01-28T10:00:00,004] <schedule-radio-ai> INFO  scheduler - Site Default: executing Radio AI 2G
+[2021-01-28T10:00:00,010] <schedule-radio-ai> INFO  scheduler - device[80:2a:a8:d0:b0:52] scan ng: started
+[2021-01-28T10:00:05,010] <schedule-radio-ai> INFO  scheduler - device[80:2a:a8:d0:b0:e6] scan ng: started
+[2021-01-28T10:01:10,034] <schedule-radio-ai> INFO  scheduler - RadioAI Init for ng radio:
+[2021-01-28T10:01:10,034] <schedule-radio-ai> INFO  scheduler - RadioAI Init: fitness 16.5 -> 16.5 Mbit/s => Applying
+[2021-01-28T10:01:10,036] <schedule-radio-ai> INFO  scheduler - RadioAI Init: Current satisfaction: 97.8
+[2021-01-28T10:01:10,038] <schedule-radio-ai> INFO  scheduler - Site Default: executing Radio AI 5G
+[2021-01-28T10:01:10,043] <schedule-radio-ai> INFO  scheduler - RadioAI Update for na radio: [attempt: 1]
+[2021-01-28T10:01:10,043] <schedule-radio-ai> INFO  scheduler - RadioAI Update: satisfaction 97.7 -> 96.4 % => Not improved [attempt: 1]
+[2021-01-28T10:01:10,044] <schedule-radio-ai> INFO  scheduler - device[80:2a:a8:d0:b0:52] scan na: started
+[2021-01-28T10:01:15,044] <schedule-radio-ai> INFO  scheduler - device[80:2a:a8:d0:b0:e6] scan na: started
+[2021-01-28T10:02:20,059] <schedule-radio-ai> INFO  scheduler - RadioAI Update: Blacklisting channels, trying one more time [attempt: 2]
+[2021-01-28T10:02:20,060] <schedule-radio-ai> INFO  manager - device[80:2a:a8:d0:b0:52]-wifi0 ch:1 backup_ch:0 ht:20 not changed, skipping
+[2021-01-28T10:02:20,060] <schedule-radio-ai> INFO  manager - device[80:2a:a8:d0:b0:52]-wifi1 ch:149 backup_ch:0 ht:40 not changed, skipping
+[2021-01-28T10:02:20,060] <schedule-radio-ai> INFO  manager - device[80:2a:a8:d0:b0:e6]-wifi0 ch:11 backup_ch:0 ht:20 not changed, skipping
+[2021-01-28T10:02:20,060] <schedule-radio-ai> INFO  manager - device[80:2a:a8:d0:b0:e6]-wifi1 ch:36 backup_ch:0 ht:40 not changed, skipping
+[2021-01-28T10:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-28T10:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-28T11:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-28T11:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-28T12:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-28T12:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-28T13:43:00,001] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-28T13:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-28T14:43:00,000] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-28T14:43:00,001] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-28T15:43:00,000] <schedule-optimize> INFO  schedule - Not forcing multicast block on any SSIDs since none had >= 100 clients in last hour
+[2021-01-28T15:43:00,000] <schedule-optimize> WARN  schedule - No gateway device was detected so we cannot enable multicast block
+[2021-01-28T16:29:06,373] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_from while trying to render device name
+[2021-01-28T16:29:06,373] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_to while trying to render device name
+[2021-01-28T16:29:23,963] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_from while trying to render device name
+[2021-01-28T16:29:23,963] <inform_stat-1> WARN  event  - Unrendered device from unknown type ap_to while trying to render device name
+[2021-01-30T23:47:21,866] <localhost-startStop-1> INFO  Version - HV000001: Hibernate Validator 6.1.2.Final
+[2021-01-30T23:47:22,019] <localhost-startStop-1> INFO  system - ======================================================================
+[2021-01-30T23:47:22,019] <localhost-startStop-1> INFO  system - UniFi 6.0.43 (build atag_6.0.43_14348 - release/release) is started
+[2021-01-30T23:47:22,020] <localhost-startStop-1> INFO  system - ======================================================================
+[2021-01-30T23:47:22,020] <localhost-startStop-1> INFO  system - BASE dir:/usr/lib/unifi
+[2021-01-30T23:47:22,044] <localhost-startStop-1> INFO  system - Current System IP: 172.31.0.2
+[2021-01-30T23:47:22,044] <localhost-startStop-1> INFO  system - Hostname: 858cbcb3450f
+[2021-01-30T23:47:22,045] <localhost-startStop-1> INFO  system - ubic.env: prod
+[2021-01-30T23:47:22,281] <localhost-startStop-1> INFO  db     - waiting for db connection...
+[2021-01-30T23:47:23,782] <localhost-startStop-1> INFO  db     - Connecting to mongodb://localhost:27117
+[2021-01-30T23:47:24,848] <localhost-startStop-1> INFO  db     - setting mongodb features compatibility version to 3.6
+[2021-01-30T23:47:25,433] <localhost-startStop-1> INFO  db     - Connecting to mongodb://localhost:27117
+[2021-01-30T23:47:25,760] <localhost-startStop-1> INFO  productinfo - Using controller channel=RELEASE, firmware channel=RELEASE. Available controller channels=[RELEASE], available firmware channels=[RELEASE]. SSO is enabled.
+[2021-01-30T23:47:26,026] <localhost-startStop-1> INFO  webrtc - WebRTC library version: EvoStream Media Server (www.evostream.com) build v2.9.1 - Gladiator - (built for Debian-8.2.0-x86_64 on 2020-02-05T23:33:19.000) OpenSSL version: 1.1.1d usrsctp version: v0.1.2 compiled on machine: Linux debian-8-2-0-64 3.16.0-6-amd64 #1 SMP Debian 3.16.57-2 (2018-07-14) x86_64 GNU/Linux
+[2021-01-30T23:47:26,187] <localhost-startStop-1> INFO  remote - Directory '/usr/lib/unifi/logs/remote' present
+[2021-01-30T23:47:26,190] <localhost-startStop-1> INFO  remote - started remote log server
+[2021-01-30T23:48:28,806] <autoupdate-check> INFO  productinfo - firmware[UCKG2] new version (2.0.27.3b4fe24) is available
+[2021-01-30T23:48:28,807] <autoupdate-check> INFO  productinfo - firmware[UCKP] new version (2.0.27.3b4fe24) is available
+[2021-01-30T23:49:30,287] <ucare-device-check-task> WARN  ucare  - Device check failed: Cloud operation failed! RC=404, error: {"code":"NOT_FOUND","timestamp":"1612050570"}
