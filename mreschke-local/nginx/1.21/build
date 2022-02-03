@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Build Image
+docker build -t=mreschke/nginx:1.21 .

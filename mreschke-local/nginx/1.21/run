@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# Run container
+#docker run -it \
+#    --name mreschke-nginx \
+#    -p 80:80 \
+#    -p 443:443 \
+#    -v /etc/nginx/certs/mreschke:/etc/nginx/certs/mreschke \
+#    -v /etc/nginx/sites-available/mreschke/local.wiki.mreschke.com:/etc/nginx/conf.d/custom/local.wiki.mreschke.com \
+#    -v /etc/nginx/sites-available/mreschke/local.wiki.mreschke.net:/etc/nginx/conf.d/custom/local.wiki.mreschke.net \
+#    --add-host host.docker.internal:host-gateway \
+#    --rm dynatron/nginx:1.21
+
+docker run -it \
+    --name mreschke-nginx \
+    -p 80:80 -p 443:443 \
+    --add-host host.docker.internal:host-gateway \
+    --rm mreschke/nginx:1.21

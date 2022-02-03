@@ -1,8 +1,7 @@
 #!/bin/bash
 
-#base="$( cd "$(dirname "$0")" ; cd ../ ; pwd -P )" # Not with with symlinks
-base=~/Code/mreschke/docker
+base=~/Code/dynatron/docker
 source $base/bin/docker-compose-helper.sh
 
-path=$base/fusionauth/1.15.8
+path=$base/dynatron-local
 compose "$@"

@@ -1,0 +1,22 @@
+server {
+    listen 443 ssl;
+    server_name local.wiki.mreschke.net;
+
+    ssl_certificate         /etc/nginx/certs/mreschke/live/local.wiki.mreschke.net/fullchain.pem;
+    ssl_certificate_key     /etc/nginx/certs/mreschke/live/local.wiki.mreschke.net/privkey.pem;
+
+    location / {
+        proxy_set_header    X-Real-IP               $remote_addr;
+        proxy_set_header    X-Forwarded-For         $proxy_add_x_forwarded_for;
+        proxy_set_header    X-Forwarded-Proto       $scheme;
+        proxy_set_header    Host                    $host;
+        #proxy_pass          https://localhost:8443; #8000 is kong HTTP, 8443 is kong HTTPS
+        proxy_pass          http://host.docker.internal:7004; # Temp direct to uvicore
+    }
+}
+
+server {
+    listen 80;
+    server_name local.wiki.mreschke.net;
+    return 301 https://$host$request_uri;
+}

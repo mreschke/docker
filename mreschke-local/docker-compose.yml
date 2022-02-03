@@ -1,0 +1,39 @@
+version: "3.5"
+
+services:
+  nginx:
+    image: mreschke/nginx:1.21
+    container_name: mreschke-nginx
+    ports:
+      - "80:80"
+      - "443:443"
+    networks:
+      - mreschke
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+  mysql:
+    image: percona:8
+    container_name: mreschke-percona
+    environment:
+      MYSQL_ROOT_PASSWORD: techie
+    #restart: unless-stopped
+    ports:
+      - "3306:3306"
+    networks:
+      - mreschke
+
+  redis:
+    image: redis:6.2-alpine
+    container_name: mreschke-redis
+    #restart: unless-stopped
+    ports:
+      - "6379:6379"
+    networks:
+      - mreschke
+
+networks:
+  mreschke:
+    driver: bridge
+    name: mreschke-local
+
